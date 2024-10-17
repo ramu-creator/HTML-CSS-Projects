@@ -1,0 +1,347 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:"helvetica",sans-serif;
+    /* border: solid; */
+}
+/* ............division 1................ */
+
+#division1 {
+    border:none;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 1;
+    position:fixed;
+    word-spacing: 10px;
+}
+#division1 span{
+    animation: runningLine 38.5s linear infinite;
+}
+@keyframes runningLine {
+    from{
+        transform: translateX(2990px);
+    }
+    to{
+        transform: translateX(-3000px);
+    }      
+}
+
+/* ............division 2................ */
+
+.division2 {
+    border:none;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content:center;
+    font-size: 35px;
+    padding: 10px;
+    /* font-weight: bold; */
+    /* position: relative; */
+    position: absolute;
+    /* top: 100px; */
+    inset: 100px 0 0 0;
+}
+#title {
+    display:flex;
+    list-style-type: none;
+    row-gap: 20px;
+    column-gap: 50px;
+    margin: 40px 100px;
+}
+.sub_division2 img{
+    /* border: solid; */
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+    /* margin: 0px 100px; */
+}
+#icons{
+    position: absolute;
+    /* inset: 0px 0px 0px 0px; */
+    top: 30px;
+    right: 50px;
+    margin: 10px;
+
+}
+#icons i{
+    width: 50px;
+    height: 50px;
+}
+svg{
+    width: 50px;
+    height: 50px;
+}
+#hr12:hover{
+    text-decoration: underline;
+}
+
+/* ............division 3................ */
+.division3{
+    /* border: solid red ; */
+    width: 100%;
+    position: relative;
+    animation-name: picture;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    background-image: url(../assests/backgroundimg1.webp);
+    background-size: cover;
+    height: 85vh;
+    position: absolute;
+    inset: 250px 0 0 0;
+}
+@keyframes picture {
+    
+    100%{
+        background-image: url(../assests/backgroundimg2.webp);
+    }  
+}
+
+/* ............division 4................ */
+.division4{
+    /* border: solid darkblue; */
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    inset: 102.7vh 0 0 0;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    padding-left: 40px;
+    /* position: relative; */
+}
+
+/* ............division 5................ */
+.division5{
+    /* border: solid darkgoldenrod; */
+    width: 100%;
+    height: 500px;
+    position:absolute;
+    inset: 109.5vh 0 0 0;
+    display: flex;
+    justify-content:space-evenly;
+    animation: runningLine-img 38.5s linear infinite;
+}
+
+@keyframes runningLine-img {
+    from{
+        transform: translateX(2990px);
+    }
+    to{
+        transform: translateX(-3000px);
+    }      
+}
+.division5 img{
+    border-radius: 50%;
+    margin:0px 20px;
+    overflow: hidden;
+}
+.names{
+    /* border: solid darkcyan; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -720px;
+    font-size: 30px;
+    animation: runningLine-name 38.5s linear infinite;
+}
+
+@keyframes runningLine-name {
+    from{
+        transform: translateX(2990px);
+    }
+    to{
+        transform: translateX(-3000px);
+    }      
+}
+#bottom{
+    position: absolute;
+    inset: 149vh 0 0 0;
+
+}
+#div5{
+    position: absolute;
+    inset: 155.8vh 0 0 0;
+}
+#same-name{
+    position: absolute;
+    inset: 189.5vh 0 0 0;
+}
+
+/* ............division 6................ */
+.division6{
+    /* border: solid darkmagenta; */
+    width: 100%;
+    height: auto;
+    position: absolute;
+    inset: 195vh 0 0 0;
+}
+.division6 img{
+    width: 100%;
+}
+#middle{
+    position: absolute;
+    inset: 279.5vh 0 0 0;
+}
+
+/* ............division 7................ */
+.division7{
+    /* border: solid darkred; */
+    display: flex;
+    position: absolute;
+    inset: 286.5vh 0 0 0;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+
+}
+.sub-div7{
+    border: solid;
+    width: 23.5%;
+    height:auto;
+    border: none;
+
+}
+.sub-div7 img{
+    width: 100%;
+}
+.sub-div7 h2,p{
+    font-size: 30px;
+    word-spacing: 10px;
+    margin-bottom: 5px;
+}
+.sub-div7 h2 {
+    display: flex;
+    justify-content: space-between;
+}
+#img-logo a{
+    text-decoration: none;
+    border: none;
+}
+#img-logo{
+    width: 40px;
+    margin:0px 10px;
+}
+
+/* ............division 8................ */
+.division8{
+    /* border: solid darkgreen; */
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    inset: 368.3vh 0 0 0;
+}
+.division8 img{
+    width: 100%;
+    height: 85vh;
+}
+#middle2{
+    position: absolute;
+    inset:455vh 0 0 0;
+}
+#division7-2{
+    position: absolute;
+    inset: 463vh 0 0 0;
+}
+
+/* ............division 9................ */
+.division9{
+    /* border: solid darkblue; */
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    inset: 555vh 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+    padding-top: 40px;
+}
+.division9 ul{
+    list-style-type: none;
+    font-size: 40px;
+    padding: 10px;
+}
+.division9 ul>li{
+    margin-top: 25px;
+}
+#sub-div9{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#sub-div9 input{
+    width: 88%;
+    height: 100px;
+    background-color: #e5e5e5;
+}
+input[type="email"]{
+    font-size: 35px;
+    padding-left: 40px;
+}
+#sub-div9 button{
+    width: 12%;
+    height: 100px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    color: #fff;
+    background-color: #000;
+}
+#sub-div9 button>i{
+    font-size: 50px;
+}
+#sub-div9-1 i{
+    font-size: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+#sub-div9-1 i:hover{
+    color: red;
+}
+#sub-div9-1 p{
+    font-size: 35px;
+}
+#sub-div9-1 img{
+    width: 350px;
+    height: 100px;
+}
+#div9-2{
+    width: 33%;
+    position: absolute;
+    inset: 580vh 0 0 110px;
+    /* top: 580vh; */
+    /* left: 110px; */
+}
+#div9-2 p{
+    font-size: 35px;
+}
+
+/* ............division 10................ */
+.division10{
+    /* border: solid darkmagenta; */
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 597vh;
+    display:grid;
+    place-items: center;
+}
+.division10 p{
+    margin: 25px;
+}
+.gift{
+    position:fixed;
+    bottom: 150px;
+}
+.gift img{
+    width: 140px;
+    border-radius: 0px 24px 24px 0px;
+}
